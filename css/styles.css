@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    /* font-size: 50px; */
+    color: #ffffff;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#000000, #b8006b);
+}
+
+.box {
+    display: flex;
+    width: 80%;
+    height: 15%;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.botao {
+    display: flex;
+    width: 150px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    background-color: #ffffff;
+    border: 3px solid #000;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.botaoNao {
+    display: flex;
+    width: 150px;
+    height: 40px;
+    position: absolute;
+    bottom: 325px;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    background-color: #ffffff;
+    border: 3px solid #000;
+    border-radius: 10px;
+    margin: 10px;
+}
