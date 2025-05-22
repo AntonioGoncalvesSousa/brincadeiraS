@@ -6,6 +6,9 @@ const botaoNao = document.querySelector(".botao-nao");
 const larguraBotao = botaoNao.offsetWidth;
 const alturaBotao = botaoNao.offsetHeight;
 
+console.log(larguraBotao)
+console.log(alturaBotao)
+
 const texto = document.querySelector(".textinho");
 
 let numero = 0;
@@ -19,7 +22,7 @@ function nao() {
     let posicaoY = randomNumber(altura, alturaBotao); 
 
     while (posicaoY > 330 && posicaoY < 530) {
-        posicaoY = randomNumber(largura, larguraBotao);
+        posicaoY = randomNumber(altura, alturaBotao);
     }
 
     botaoNao.style.left = `${posicaoX}px`;
